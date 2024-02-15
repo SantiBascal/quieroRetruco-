@@ -11,8 +11,8 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        margin: 10px 0;
-        padding: 10px 0;
+        margin: 15px 0;
+        padding: 12px 0;
         border-bottom: 2px dotted #FFF2AE;
 
     }
@@ -37,12 +37,12 @@
     }
 
     main .jugadores .names{
-        margin-top: 8px;
+        margin: 11px 0px;
     }
 
     main .jugadores .buttons{
-        margin-top: 10px;
-        padding-bottom: 14px;
+        margin-top: 13px;
+        padding-bottom: 17px;
         display: flex;
         justify-content: space-evenly;
         align-items: center;
@@ -55,10 +55,10 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        width: 18px;
-        height: 18px;
-        padding: 17px;
-        font-size: 18px;
+        width: 21px;
+        height: 21px;
+        padding: 20px;
+        font-size: 21px;
         border: none;
         background-color: #525252;
         
@@ -93,12 +93,12 @@
         display: flex;
         justify-content: space-evenly;
         align-items: center;
-        width: 100%;
+        width: 85%;
         margin: 30px;
     }
 
     main .jugadores .gamePoints .puntos .punto{
-        height: 55px;
+        height: 70px;
         width: 10px;
 
         background-color: #74634f;
