@@ -59,7 +59,7 @@
         background-color: #525252;
     }
 
-    main .jugadores .buttons button:hover{
+    main .jugadores .buttons button:active{
         background-color: #FFF2AE;
         color: #292929;
     }
