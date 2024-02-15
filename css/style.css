@@ -32,11 +32,45 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+        font-size: 17px;
+        border: 2px dotted #FFF2AE;
     }
 
     main .jugadores .buttons{
+        margin-top: 8px;
+        padding-bottom: 10px;
         display: flex;
-        justify-content: space-between;
+        justify-content: space-evenly;
         align-items: center;
+        width: 100%;
+        height: 20px;
+        border-bottom: 2px dotted #FFF2AE;
+        
+    }
+    main .jugadores .buttons button{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 16px;
+        height: 16px;
+        padding: 15px;
+        font-size: 16px;
+        border: none;
+        background-color: #525252;
+    }
+
+    main .jugadores .buttons button:hover{
+        background-color: #FFF2AE;
+        color: #292929;
+    }
+
+    main .jugadores .buttons b{
+        color: #74634f;
+        font-size: 23px;
+    }
+
+    main .jugadores .buttons .buenas{
+        color: #ffd4a2;
+        font-size: 23px;
     }
 }
