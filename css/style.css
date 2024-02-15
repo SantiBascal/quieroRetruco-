@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    background-color: #292929;
+    font-family: monospace;
+    color: #FFF2AE;
+
+}
+
+@media(max-width: 620px) {
+    header{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 10px 0;
+        padding: 10px 0;
+        border-bottom: 2px dotted #FFF2AE;
+
+    }
+
+    header h1{
+        font-size: 20px;
+    }
+
+    main{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        
+    }
+
+    main .jugadores{
+        height: 500px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    main .jugadores .buttons{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
