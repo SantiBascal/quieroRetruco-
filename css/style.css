@@ -62,6 +62,7 @@
     main .jugadores .buttons button:active{
         background-color: #FFF2AE;
         color: #292929;
+        transition: 1s;
     }
 
     main .jugadores .buttons b{
